@@ -33,8 +33,27 @@ Here, we have no human interaction with the system at all.
 
 ![CDeployment](../Screenshots/0_y2Pwj5q1aeZ6zweo.webp)
 
+## CICD Pipelines
 
+Main purpose is to put working software into the hands of the users.
+
+```
+diagram to follow
+
+```
+
+- Advantages 
+  - automation
+  - saves time
+  - saves money
+  - ensure code quality
+  
 ## What is Jenkins?
+
+```
+diagram to follow
+
+```
 
 Jenkins is an Open Sourced Java based program with packages for Windows, Linux and macOS. It is an automation server where the initial build and Continuos Integration process takes place.
 
@@ -42,7 +61,10 @@ Jenkins is an Open Sourced Java based program with packages for Windows, Linux a
 
 Jenkins is used by major organizations such as Facebook, Netflix and Ebay and offers some great advantages:
 
-- Jenkins has a fantastic range of plugins
-- 
+- Advantages
+  - Powerful range of plugins
+  - Open-Source
+  - Free
+  - Industry Standard tool.
 
 
