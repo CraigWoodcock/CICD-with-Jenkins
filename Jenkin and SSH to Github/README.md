@@ -72,3 +72,10 @@
  now attach job 2 to job 1
    - go to job 1 -> configure -> post build actions and choose 2
 ![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151057.png>)
+
+
+## blockers
+
+job 2 failed because i forgot to add the github project
+
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 153208.png>)
