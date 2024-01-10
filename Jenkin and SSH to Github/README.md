@@ -56,3 +56,19 @@
     - commit and push to github and check jenkins to see the jobs running
 
 ![Alt text](<Screenshot 2024-01-10 143254.png>)
+
+## making job 2
+
+ create new job<br>
+![new job](<Screenshot 2024-01-10 113401.png>)
+
+ add git repo info
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151444.png>)
+
+ post build actions -> Git Publisher 
+   - enter these details
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151615.png>)
+ 
+ now attach job 2 to job 1
+   - go to job 1 -> configure -> post build actions and choose 2
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151057.png>)
