@@ -4,6 +4,9 @@
 
 CI stands for Continuos Integration. This is is the concept of continuously commiting and merging changes as soon as they are ready rather than waiting until a specific time or date such as a pre-planned date.
 
+![Branches](../Screenshots/Github_Branches.png).
+Diagram shows how a github branch called 'Dev' is created, changes are tested on the dev branch and then merged back to 'main' as soon as the changes are confirmed tpo have worked. This illustrates the practice of 'Continuous Integration
+
 We use fully automated build and test processes that can alert us to any issues that arise from our changes. 
 
 Utilizing CI means we can avoid issues that could arise from all developers committing and pushing changes at the end of a project.
