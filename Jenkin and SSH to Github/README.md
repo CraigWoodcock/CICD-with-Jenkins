@@ -34,8 +34,25 @@
   
 ![console output](<Screenshot 2024-01-10 115530.png>)
 
-6. ![Alt text](<Screenshot 2024-01-10 120644.png>) 
-7. ![Alt text](<Screenshot 2024-01-10 120810.png>)
-8. ![Alt text](<Screenshot 2024-01-10 121224.png>)
-9. 
-10. ![Alt text](<Screenshot 2024-01-10 122037.png>)
+
+6. Add the Build trigger, this will be to trigger jenkins.
+   - Choose this option to look for changes to github repo.
+  
+![Alt text](<Screenshot 2024-01-10 120644.png>)
+
+7. Change the branch that jenkins should listen on.
+   - Set this to the 'dev' branch
+
+![Alt text](<Screenshot 2024-01-10 120810.png>)
+
+8. Next we need to add the webhook to github.
+   - Github repo settings -> webhooks -> 'Add Webhook'
+
+![Alt text](<Screenshot 2024-01-10 121224.png>)
+
+
+
+1.  Now Make a change to the file.
+    - commit and push to github and check jenkins to see the jobs running
+
+![Alt text](<Screenshot 2024-01-10 143254.png>)
