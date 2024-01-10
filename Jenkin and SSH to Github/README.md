@@ -7,10 +7,17 @@
 
 2. next scroll down to 'Git'.
     - Enter these details
+   
 
 ![git](<Screenshot 2024-01-10 112125.png>)
 
-3. next is build steps:
+   - press 'add' on credentials
+   - enter these details and paste the private key
+  
+![Alt text](<Screenshot 2024-01-10 120406.png>)
+
+
+1. next is build steps:
     - Scroll down -> 'Add Build Step' -> 'invoke top-level targets'
 
 ![build steps](<Screenshot 2024-01-10 105253.png>)
@@ -26,3 +33,9 @@
     - and check the console output 
   
 ![console output](<Screenshot 2024-01-10 115530.png>)
+
+6. ![Alt text](<Screenshot 2024-01-10 120644.png>) 
+7. ![Alt text](<Screenshot 2024-01-10 120810.png>)
+8. ![Alt text](<Screenshot 2024-01-10 121224.png>)
+9. 
+10. ![Alt text](<Screenshot 2024-01-10 122037.png>)
