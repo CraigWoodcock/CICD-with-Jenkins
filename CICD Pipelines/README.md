@@ -3,6 +3,17 @@
 ## What is a Pipeline?
 
  It's a series of automated steps or actions that software code goes through, such as building, testing, and deploying. Each step in the pipeline ensures that the code is functioning correctly and is ready for use, just like each stage in a non-technical pipeline ensures the product is ready for its next phase.
+ 
+ Its Main purpose is to put working software into the hands of the users.
+
+![pipeline](../Screenshots/pipeline.png)
+
+
+- Advantages 
+  - automation
+  - saves time
+  - saves money
+  - ensure code quality
 
 ## How to create a job on jenkins
 

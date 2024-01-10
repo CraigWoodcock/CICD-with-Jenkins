@@ -36,20 +36,6 @@ Here, we have no human interaction with the system at all.
 
 ![CDeployment](../Screenshots/0_y2Pwj5q1aeZ6zweo.webp)
 
-## CICD Pipelines
-
-Main purpose is to put working software into the hands of the users.
-
-```
-diagram to follow
-
-```
-
-- Advantages 
-  - automation
-  - saves time
-  - saves money
-  - ensure code quality
   
 ## What is Jenkins?
 
