@@ -42,7 +42,9 @@ Scroll to the bottom, 'Post Build Action' -> 'Build Other Projects'.
 
 ![Alt text](<../Screenshots/Jenkins/Screenshot 2024-01-09 161720.png>)
 
-3. Select your job from the list, 'Apply' and 'Save'
+3. Select your job from the list, 'Apply' and 'Save'.
+
+
 
 
 
