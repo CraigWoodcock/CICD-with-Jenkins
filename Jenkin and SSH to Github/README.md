@@ -59,15 +59,19 @@
 
 ## making job 2
 
- create new job<br>
-![new job](<Screenshot 2024-01-10 113401.png>)
+ Create new job
+ add git repo info.<br>
+ this needs to http link.
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-12 164819.png>)
 
- add git repo info
-![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151444.png>)
-
+ Source Code Management
+This needs to be ssh link
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-12 165450.png>)
+ Add Behaviours
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-12 165605.png>)
  post build actions -> Git Publisher 
    - enter these details
-![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151615.png>)
+![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-12 165411.png>)
  
  now attach job 2 to job 1
    - go to job 1 -> configure -> post build actions and choose 2
