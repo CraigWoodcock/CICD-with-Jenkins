@@ -77,6 +77,20 @@ This needs to be ssh link
    - go to job 1 -> configure -> post build actions and choose 2
 ![Alt text](<../Screenshots/Job 2/Screenshot 2024-01-10 151057.png>)
 
+## making job 3
+
+1. Create a freestyle new job
+2. add the following build trigger to look for job 2:
+![Build Trigger](<../Screenshots/Screenshot 2024-01-15 160009.png>)
+3. add pem file for SSH Agent:
+![Alt text](<../Screenshots/Screenshot 2024-01-15 160247.png>)
+4. under build steps, add ssh agent and add the following commands:
+```
+ssh -o StrictHostKeyChecking=no ubuntu@ec2-18-201-19-112.eu-west-1.compute.amazonaws.com "sudo chmod 777 -R /repo"
+scp -o StrictHostKeyChecking=no -r ../craig-jsonvh-job1-CI-test/springapi ubuntu@ec2-18-201-19-112.eu-west-1.compute.amazonaws.com:/repo
+ssh -o StrictHostKeyChecking=no -i ubuntu ubuntu@ec2-18-201-19-112.eu-west-1.compute.amazonaws.com "cd /repo/springapi; sudo mvn clean package spring-boot:start"
+```
+
 
 ## blockers
 
